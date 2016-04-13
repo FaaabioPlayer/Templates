@@ -16,7 +16,8 @@ namespace WcfJsonRestService
                 Id = Convert.ToInt32(id),
                 IdCorridaAgendada = Convert.ToInt32(id) + 1,
                 EnderecoOrigemCompleto = "Rua Zuferey, 1228, Vila Progresso",
-                EnderecoDestinoCompleto = "Rua Carlos Gomes, 1588, Vila Graff"
+                EnderecoDestinoCompleto = "Rua Carlos Gomes, 1588, Vila Graff",
+                TempoOrigemDestino = 10
             };
         }
     }
@@ -27,5 +28,6 @@ namespace WcfJsonRestService
         public int IdCorridaAgendada { get; set; }
         public string EnderecoOrigemCompleto { get; set; }
         public string EnderecoDestinoCompleto { get; set; }
+        public int TempoOrigemDestino { get; set; }
     }
 }
