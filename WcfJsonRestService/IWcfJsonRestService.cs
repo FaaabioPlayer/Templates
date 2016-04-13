@@ -6,6 +6,6 @@ namespace WcfJsonRestService
     public interface IWcfJsonRestService
     {
         [OperationContract]
-        Person GetData(string id);
+        CorridaExecutada GetData(string id);
     }
 }
